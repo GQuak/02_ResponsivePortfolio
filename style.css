@@ -1,0 +1,21 @@
+.medium-screen {
+    background-color: yellow;
+    display: none;
+}
+
+.extraLarge-screen {
+    background-color: red;
+    visibility: hidden;
+}
+
+@media (min-width: 768px) { 
+    .medium-screen {
+        display: block;
+    }
+ }
+
+ @media (min-width: 1200px) { 
+     .extraLarge-screen {
+         visibility: visible;
+     }
+  }
