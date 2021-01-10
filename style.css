@@ -1,38 +1,30 @@
-.footer {
+/* This class sets the custom style for the footer's on this website */
+.footerStyle {
     text-align: center;
     background-color: #FFD700;
-}
-
-
-.formStyle {
-    color: Black;
-    /* text-align: center; */
-    background-color: lightgray;
-    }
-
-.formContainer {
-    border: red;
-}
-
-.footerStyle {
     vertical-align: bottom;
 }
 
+/* This class sets the custom style for the forms on this website */
+.formStyle {
+    color: Black;
+    background-color: lightgray;
+    }
+
+/* These classes show or hide content based on the screen size*/
 .extraSmall-screen {
-    /* background-color: red; */
     display: block;
 }
 
 .medium-screen {
-    /* background-color: yellow; */
     display: none;
 }
 
 .large-screen {
-    /* background-color: red; */
     display: block;
 }
 
+/*Media Queries that utilize the classes built to show or hide content based on screen size */
 @media (min-width: 768px) { 
     .medium-screen {
         display: block;
