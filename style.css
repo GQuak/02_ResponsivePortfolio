@@ -3,6 +3,7 @@
     text-align: center;
     background-color: #FFD700;
     vertical-align: bottom;
+    opacity:0.65;
 }
 
 /* This class sets the custom style for the forms on this website */
@@ -11,17 +12,36 @@
     background-color: lightgray;
     }
 
-/* These classes show or hide content based on the screen size*/
+/* This class sets the custom style for the card images */
+.card-img-top {
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+
+
+
+/* These classes show or hide content based on the screen size together with the media queries below*/
+
+/* Only shows on xs & sm screens */
 .extraSmall-screen {
     display: block;
 }
 
+/* Only shows on md or larger screens */
 .medium-screen {
     display: none;
 }
 
+/* Only shows on lg or xl screens */
 .large-screen {
-    display: block;
+    display: none;
+}
+
+/* Only hides on lg & xl screens */
+.hideLarge-screen {
+display: block;
 }
 
 /*Media Queries that utilize the classes built to show or hide content based on screen size */
@@ -39,6 +59,12 @@
 
   @media (max-width: 768px) {
       .extraSmall-screen {
+          display: none;
+      }
+  }
+
+  @media (min-width: 992px) {
+      .hideLarge-screen {
           display: none;
       }
   }
