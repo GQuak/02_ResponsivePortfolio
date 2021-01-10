@@ -1,16 +1,36 @@
 .footer {
     text-align: center;
+    background-color: #FFD700;
 }
 
 
+.formStyle {
+    color: Black;
+    /* text-align: center; */
+    background-color: lightgray;
+    }
+
+.formContainer {
+    border: red;
+}
+
+.footerStyle {
+    vertical-align: bottom;
+}
+
+.extraSmall-screen {
+    /* background-color: red; */
+    display: block;
+}
+
 .medium-screen {
-    background-color: yellow;
+    /* background-color: yellow; */
     display: none;
 }
 
 .large-screen {
-    background-color: red;
-    visibility: hidden;
+    /* background-color: red; */
+    display: block;
 }
 
 @media (min-width: 768px) { 
@@ -21,6 +41,12 @@
 
  @media (min-width: 992px) { 
      .large-screen {
-         visibility: visible;
+         display: block;
      }
+  }
+
+  @media (max-width: 768px) {
+      .extraSmall-screen {
+          display: none;
+      }
   }
