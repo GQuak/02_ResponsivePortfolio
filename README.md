@@ -1,10 +1,10 @@
 # 02_ResponsivePortfolio
 Assignment 02 - Create a responsive portfolio that includes a navbar, responsive layout, and responsive images.
 
-<!-- DESCRIPTION
-The goal of this project was to review and refactor the code for Horiseon's homepage with an emphasis on following proper accessibility standards. 
+DESCRIPTION
+The goal of this project was to create a mobile responsive portfolio for myself. 
 
-The first change I made was to implement proper semantic html tags to improve the accessability of the page. I broke it down into the header, two body sections, and a footer. I broke each section into 3 articles by related content & images. Then I adjusted the style.css file to align the classes with the new semantic html. I also consolidated duplicate classes that had identically styling into a single class that could be applied multiple times in the html. I have included comments to the index.html & style.css files explaining what the code does and why it's necessary. -->
+I started by deciding how many pages I wanted to have and decided on 4. index.html for the homepage, and an about.html, contact.html, and portfolio.html. I used Bootstrap's default CSS & JS to add a Navbar at the top of each page. Then I built a customized footer that links to my social media from every page. I then built out each page. For the about page I included images and text to introduce myself. On the contact page I included a form that collects first name, last name, email, phone number, and then a custom message. On the portfolio page I included multiple cards with images, headlines, and text highlighting some of the main information on the website. Then I brought it all together by including the about and contact content on the index.html page on all screen sizes and added the portfolio on screens size large or larger.
 
 To view the index.html webpage visit https://gquak.github.io/02_ResponsivePortfolio/index.html
 To view the about.html webpage visit https://gquak.github.io/02_ResponsivePortfolio/about.html
