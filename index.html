@@ -13,6 +13,7 @@
 
     <title>GQ Disc Golf Homepage</title>
 
+    <!-- Adding a background image -->
     <style>
         body {
             background-image: url('./images/GQDG_BlackTexture.png');
@@ -53,22 +54,228 @@
         </div>
     </nav>
 
+    <!-- This container holds the page content -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-md-6 col-xl-4">
-                <p>md6</p>
+
+            <!-- Buffer columns on md screens -->
+            <div class="extraSmall-screen col-md-1 hideLarge-screen"></div>
+
+            <!-- About Info & Contact Form -->
+            <div class="col-xs-12 col-md-10 hideLarge-screen">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Who is GQ Disc Golf?</h4>
+                        <img src="images/GQDiscGolf_Forehand.jpg" class="card-img-top homePageImage"
+                            alt="GQ Disc Golf Forehand">
+                        <h5>Our Founder</h5>
+                        <p class="founder">Gabe Quakkelaar started playing disc golf in 2017 when his college roommate
+                            took
+                            him out between Ultimate frisbee practices and games. After graduating from college in the
+                            spring of 2018 with a double major in Business Management and Computer Information systems
+                            he
+                            continued to play casually as a way to get outside and to keep in touch with college
+                            friends.
+                            Eventually he started to take the sport more seriously and played a few tournaments and
+                            started
+                            watching professional footage on YouTube, which inspired him to work on his game and to
+                            connect
+                            with the Disc Golf community. Once he created an Instagram account, he quickly realized that
+                            he
+                            had a unique blend of talent and experience that would allow him to create a successful Disc
+                            Golf brand that provides unique data analysis on the professional scene. Now he’s living
+                            outside
+                            Denver, Colorado with his wife and Australian Shepherd taking the University of Denver
+                            coding
+                            bootcamp so he can improve this website and make the data analysis even more easily
+                            accessible
+                            for other fans.</p>
+
+                        <img src="images/GQDGLogo.png" class="card-img-top logoImage" alt="GQ Disc Golf Logo">
+
+                        <h5>History</h5>
+                        <p class="history">GQ Disc Golf was founded in December 2019 when Gabe Quakkelaar created an
+                            Instagram account to share his Disc Golf adventure. Since then, the brand has grown to over
+                            1.3k
+                            Instagram followers, over 500 likes on Facebook, and 130+ followers on Twitter. In 2021 the
+                            brand
+                            is growing by actively promoting the YouTube channel by posting content more regularly and
+                            promoting it across all of their social platforms. Another big step is the creation of a
+                            website
+                            where unique statistical analysis can be shared in an informative and interactive way.</p>
+
+                        <h5>Mission</h5>
+                        <p class="mission">“To promote Disc Golf by creating a positive environment on social media,
+                            helping
+                            new players learn more about the game and the professional level, and provide unique
+                            statistical
+                            insights.”</p>
+
+                    </div>
+                </div>
+                <p><br></p>
+                <div class="card">
+                    <div class="card-body formStyle">
+                        <form>
+                            <h2>Contact</h2>
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="lname" name="lname"><br>
+
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email"><br>
+
+                            <label for="phone">Phone:</label><br>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+                            <label for="message">Message:</label><br>
+                            <input type="text" id="message" name="message"><br>
+                            <br>
+                            <input type="submit" value="Submit">
+
+                        </form>
+                        <p><br><br></p>
+                    </div>
+                </div>
             </div>
-            <div class="medium-screen col-md-6 col-xl-4">
-                <p>right6</p>
+            <div class="extraSmall-screen col-md-1 hideLarge-screen"></div>
+
+            <!-- Buffer for lg screens -->
+            <div class="large-screen col-lg-1"></div>
+
+            <!-- About Info & Contact form content for lg screens -->
+            <div class="large-screen col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Who is GQ Disc Golf?</h4>
+                        <img src="images/GQDiscGolf_Forehand.jpg" class="card-img-top homePageImage"
+                            alt="GQ Disc Golf Forehand">
+                        <h5>Our Founder</h5>
+                        <p class="founder">Gabe Quakkelaar started playing disc golf in 2017 when his college roommate
+                            took
+                            him out between Ultimate frisbee practices and games. After graduating from college in the
+                            spring of 2018 with a double major in Business Management and Computer Information systems
+                            he
+                            continued to play casually as a way to get outside and to keep in touch with college
+                            friends.
+                            Eventually he started to take the sport more seriously and played a few tournaments and
+                            started
+                            watching professional footage on YouTube, which inspired him to work on his game and to
+                            connect
+                            with the Disc Golf community. Once he created an Instagram account, he quickly realized that
+                            he
+                            had a unique blend of talent and experience that would allow him to create a successful Disc
+                            Golf brand that provides unique data analysis on the professional scene. Now he’s living
+                            outside
+                            Denver, Colorado with his wife and Australian Shepherd taking the University of Denver
+                            coding
+                            bootcamp so he can improve this website and make the data analysis even more easily
+                            accessible
+                            for other fans.</p>
+
+                        <img src="images/GQDGLogo.png" class="card-img-top logoImage" alt="GQ Disc Golf Logo">
+
+                        <h5>History</h5>
+                        <p class="history">GQ Disc Golf was founded in December 2019 when Gabe Quakkelaar created an
+                            Instagram account to share his Disc Golf adventure. Since then, the brand has grown to over
+                            1.3k
+                            Instagram followers, over 500 likes on Facebook, and 130+ followers on Twitter. In 2021 the
+                            brand
+                            is growing by actively promoting the YouTube channel by posting content more regularly and
+                            promoting it across all of their social platforms. Another big step is the creation of a
+                            website
+                            where unique statistical analysis can be shared in an informative and interactive way.</p>
+
+                        <h5>Mission</h5>
+                        <p class="mission">“To promote Disc Golf by creating a positive environment on social media,
+                            helping
+                            new players learn more about the game and the professional level, and provide unique
+                            statistical
+                            insights.”</p>
+                    </div>
+                </div>
+                <p><br></p>
+                <div class="card">
+                    <div class="card-body formStyle">
+                        <form>
+                            <h2>Contact</h2>
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="lname" name="lname"><br>
+
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email"><br>
+
+                            <label for="phone">Phone:</label><br>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+                            <label for="message">Message:</label><br>
+                            <input type="text" id="message" name="message"><br>
+                            <br>
+                            <input type="submit" value="Submit">
+
+                        </form>
+                        <p><br><br></p>
+                    </div>
+                </div>
+
             </div>
-            <div class="large-screen col-xl-4">
-                <p>showright</p>
+
+            <!-- Buffer for lg screens -->
+            <div class="large-screen col-lg-1"></div>
+
+            <!-- Portfolio content on lg screens -->
+            <div class="large-screen col-lg-3">
+                <div class="card">
+                    <img src="./images/putters.jpg" class="card-img-top homepageIcon" alt="Putters">
+                    <div class="card-body">
+                        <h5 class="card-title">Putters</h5>
+                    </div>
+                </div>
+                <p><br></p>
+
+                <div class="card">
+                    <img src="./images/midranges.jpg" class="card-img-top homepageIcon" alt="Midranges">
+                    <div class="card-body">
+                        <h5 class="card-title">Midranges</h5>
+                    </div>
+                </div>
+                <p><br></p>
+
+                <div class="card">
+                    <img src="./images/fairways.jpg" class="card-img-top homepageIcon" alt="Fairway Drivers">
+                    <div class="card-body">
+                        <h5 class="card-title">Fairway Drivers</h5>
+                    </div>
+                </div>
+                <p><br></p>
+
+                <div class="card">
+                    <img src="./images/drivers.jpg" class="card-img-top homepageIcon" alt="Distance Drivers">
+                    <div class="card-body">
+                        <h5 class="card-title">Distance Drivers</h5>
+                    </div>
+                </div>
+                <p><br></p>
+
+                <div class="card">
+                    <img src="./images/bag.jpg" class="card-img-top homepageIcon" alt="Disc Golf Backpack">
+                    <div class="card-body">
+                        <h5 class="card-title">Accessories</h5>
+                    </div>
+                </div>
             </div>
+
+            <!-- Buffer for lg screens -->
+            <div class="large-screen col-lg-1"></div>
+
         </div>
-        <p><br></p>
-        <p><br></p>
+        <p><br><br></p>
     </div>
 
+    <!-- Footer with social links & copywrite -->
     <footer class="footer footerStyle">
         <p><br></p>
         <p><a href="https://www.facebook.com/GQDiscGolf" target="_blank">

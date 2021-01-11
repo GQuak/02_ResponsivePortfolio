@@ -1,4 +1,4 @@
-/* This class sets the custom style for the footer's on this website */
+/* This class sets the custom style for the footers on this website */
 .footerStyle {
     text-align: center;
     background-color: #FFD700;
@@ -12,7 +12,7 @@
     background-color: lightgray;
     }
 
-/* This class sets the custom style for the card images */
+/* These classes set the custom style for images */
 .card-img-top {
     width: 90%;
     padding-left: 10%;
@@ -27,12 +27,19 @@
 
 .logoImage {
     width: 40%;
-        padding: 5%;
-        float: left;
+    padding: 5%;
+    float: left;
 }
 
+.homePageImage {
+width: 35%;
+padding: 5%;
+float: left;
+}
 
-
+.homepageIcon {
+max-width: 300px;
+}
 
 /* These classes show or hide content based on the screen size together with the media queries below*/
 
